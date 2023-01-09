@@ -24,7 +24,9 @@ class Program
     }
 
     static void DisplayResult(string name, int digit) {
-        Console.WriteLine($"{name}, the square of your number is {digit}");
+
+        int square = SquareNumber(digit);
+        Console.WriteLine($"{name}, the square of your number is {square}");
     }
     static void Main(string[] args)
     {
