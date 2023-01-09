@@ -19,12 +19,12 @@ class Program
     }
 
     static int SquareNumber(int digit) {
-        int square = digit * digit;
-        return square;
+        return digit * digit;
+        
     }
 
-    static void DisplayResult(string name, int square) {
-        Console.WriteLine($"{name}, the square of your number is {square}");
+    static void DisplayResult(string name, int digit) {
+        Console.WriteLine($"{name}, the square of your number is {digit}");
     }
     static void Main(string[] args)
     {
